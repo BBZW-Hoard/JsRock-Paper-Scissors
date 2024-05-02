@@ -1,23 +1,30 @@
-# M293_JsWebsite
+# M293 JsWebsite
 
+## Scissors, Stone, Paper
 
-## Schere, Stein, Papier
-»Schere, Stein, Papier« ist ein altes Spiel, bei dem sich zwei Personen jeweils ein Symbol aussuchen und es dann gleichzeitig anzeigen (oder nennen). Haben beide Spieler das gleiche Symbol, ist die Runde unentschieden. Ansonsten gelten folgende Regeln:
-- Schere schneidet Papier – und gewinnt damit die Runde.
-- Papier wickelt Stein ein – und gewinnt damit die Runde.
-- Stein wiederum schleift die Schere und gewinnt.
-Damit haben wir die Spielregeln für »Schere, Stein, Papier« niedergeschrieben. Jetzt müssen wir uns überlegen, wie unser Programm um dieses Spiel herum aussehen soll. Dabei müssen wir festlegen, wie viele Runden wir spielen wollen und welche Kriterien für einen Sieg (über mehrere gespielte Runden) gelten sollen.
+"Scissors, Stone, Paper" is an old game where two people each choose a symbol and then display (or say) it simultaneously. If both players have the same symbol, the round is a tie. Otherwise, the following rules apply:
 
-Wir bestimmen einfach, dass die Anzahl der Runden unbegrenzt sein soll. Gewinnt ein Spieler aber dreimal (insgesamt, also nicht unbedingt in Folge), dann ist das Spiel zu Ende und der Sieger steht fest.
+- Scissors cuts paper - and wins the round.
+- Paper wraps stone - and wins the round.
+- Stone dulls scissors and wins.
+Thus, we have written down the rules for "Scissors, Stone, Paper". Now we need to think about how our program should look around this game. We need to determine how many rounds we want to play and what criteria should apply for a victory (over multiple rounds played).
 
-## Und wie programmiert man das jetzt?
-Überleg dir mit deinen eigenen Worten, was das Programm machen soll.
+We simply determine that the number of rounds should be unlimited. However, if a player wins three times (in total, not necessarily in a row), then the game is over and the winner is determined.
 
-## Beispiel:
-Der Computer denkt sich zu Beginn jeder Runde aus, was er macht. Dann gibst du ein, was du wählst. Es wird dann verglichen, wer die Runde gewonnen hat. Haben beide das gleiche Symbol, ist die Runde unentschieden. Schere gewinnt gegen Papier, Papier gewinnt gegen Stein, und Stein gewinnt gegen die Schere. Hat einer dreimal gewonnen, wird das Spiel beendet. Dann wird ausgegeben, wer wie oft gewonnen hat.
+## And how do you program that now?
 
-# Auftrag:
-Programmiere das Spiel. **Das Spiel darf auf der Konsole laufen.**
-Für Ausgaben können Sie `alert()` für Eingaben `prompt()` verwenden.
-Beachten Sie: Nach jeder Runde wird entschieden, ob ein Sieger feststeht. (fussgesteuerte Schleife).
-Sie können Ihr Programm in der nächsten Lektion vorstellen.
+Think about in your own words what the program should do.
+
+## Example
+
+At the beginning of each round, the computer decides what it will do. Then you enter what you choose. It then compares who won the round. If both have the same symbol, the round is a tie. Scissors wins against paper, paper wins against stone, and stone wins against scissors. If someone has won three times, the game ends. Then it will be output who has won how many times.
+
+# Task
+
+Program the game. **The game may run on the console.**
+For outputs, you can use `alert()` and for inputs `prompt()`.
+Note: After each round, it will be decided if there is a winner. (foot-controlled loop).
+
+---
+
+This Project is a license under the MIT License - see the [LICENSE](LICENSE) file for details.
